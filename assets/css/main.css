@@ -1,0 +1,1239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav .container{
+    width: 90%;
+    margin: auto;
+}
+nav .row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+}
+nav .row .logo{
+    width: 15%;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+nav .row .bars{
+    display: none;
+    padding: 10px;
+    font-size: 25px;
+}
+nav .row span.num{
+    color: rgb(80,101,142);
+}
+nav .row button{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(0,123,255);
+    border: 0px;
+    border-radius: 100px;
+    padding: 15px 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+nav .row button:hover{
+    background-color: blue;
+}
+nav .row .nav-links ul{
+    display: flex;
+    list-style: none;
+    color: rgb(80,101,142);
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav .row .nav-links ul li{
+    color: #3d4b69;
+    padding: 10px;
+    margin-right: 5px;
+}
+nav .row .nav-links ul li:hover{
+    color: #0033fd;
+    transition: all 0.5s;
+}
+
+/* ========= section-1 ========= */
+main #section-1 .container{
+width: 90%;
+margin: auto;
+}
+main #section-1 .row .card1 img{
+    width: 550px;
+    height: 550px;
+}
+main #section-1 .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+main #section-1 .row .card2{
+width: 45%;
+}
+main #section-1 .row .card2 .header-row1 h2{
+    font-size: 65px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 150px;
+    font-weight: bold;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(80,101,142);
+}
+main #section-1 .row .card2 .header-row1 h4{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    color: red;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 20px;
+   top: 150px;
+   left: 470px;
+}
+main #section-1 .row .card2 .header-row1 h3{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    color: rgb(80,101,142);
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 20px;
+   top: 200px;
+   left: 470px;
+}
+main #section-1 .row .card2 .header-row2 p{
+ font-size: 18px;
+ margin-top: 50px;
+
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgba(0, 0, 0, 0.705);
+ font-weight: lighter;
+ line-height: 1.5;
+ margin-bottom: 45px;
+}
+
+main #section-1 .row .card2 .header-row3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+main #section-1 .row .card2 .header-row3 .co-btn{
+    background-color: rgb(0,123,255);
+    color: white;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 100px;
+    font-size: 19px;
+}
+main #section-1 .row .card2 .header-row3 .co-btn:hover{
+background-color: #0033fd;
+transition: all 0.5s;
+}
+main #section-1 .row .card2 .header-row3 .co-a{
+    text-decoration: none;
+    color: rgb(0,123,255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-top: 10px; 
+}
+main #section-1 .row .card2 .header-row3 .co-a:hover{
+    color: #0033fd;
+    text-decoration:underline;
+    transition: all 0.5s;
+}
+main #section-1 .row .card2 .header-row4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+main #section-1 .row .card2 .header-row4 h6{
+
+    font-family: 'Oswald', sans-serif;
+    color: rgba(80, 101, 142, 0.469);
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+main #section-1 .row .card2 .header-row4 h4{
+    
+    font-family: 'Oswald', sans-serif;
+    color: rgb(80, 101, 142);
+    font-size: 20px;
+    text-align: center;
+}
+main #section-1 .row .card2 .header-row5{
+    font-family: 'Oswald', sans-serif;
+    color: rgba(80, 101, 142, 0.597);
+    margin-top: 5px;
+}
+
+/* ===== section-2 ====== */
+#section-2 .container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+#section-2 .container .card1{
+    width: 60%;
+}
+#section-2 .container .card2{
+    width: 35%;
+    background-color: rgba(245, 245, 220, 0.276);
+}
+#section-2 .container .card2 ul li{
+    font-size: 22px;
+    font-weight: bold;
+    border: 1px solid rgba(77, 77, 77, 0.2);
+    padding: 20px 18px;
+    list-style-type: none;
+    
+}
+#section-2 .container .card2 a{
+    text-align: center;
+    display: block;
+    /* border: 1px solid rgba(77, 77, 77, 0.2); */
+    text-decoration: none;
+    color: rgb(0,123,255);
+    font-size: 17px;
+    padding: 10px;
+}
+#section-2 .container .card2 a:hover{
+    color: black;
+    text-decoration: underline;
+    transition: all 1s;
+}
+#section-2 .container .card2 i{
+    
+    margin-left:50px;
+}
+main #section-2 .card1 .row1 h3{
+    color: rgb(63,111,253);
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+main #section-2 .card1 .row2 h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(80,101,142);
+}
+main #section-2 .card1 .row3 p{
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+main #section-2 .card1 .row4 p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgba(24, 33, 51, 0.714);
+}
+
+/* ===== section-3 ====== */
+#section-3 {
+    background-color: rgba(240, 248, 255, 0.342);
+    margin-top: 100px;
+    width: 100%;
+}
+
+#section-3 .container{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+}
+#section-3 .container .card1 h5{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0,123,255);
+    margin-bottom: 15px;
+}
+#section-3 .container .card1 h2{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(80,101,142);
+}
+#section-3 .container .card1 p{
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#section-3 .container .card2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#section-3 .container .card2 div img{
+    margin-top: 0px;
+    width: 280px;
+    height: 200px;
+    border-bottom: 5px solid rgb(0,123,255);
+    
+}
+#section-3 .container .card2 div{
+    width: 20%;
+    text-align: left;
+    background-color: white;
+}
+#section-3 .container .card2 div h5{
+    margin: 10px 0;
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#section-3 .container .card2 div p{
+    margin: 10px 0;
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+#section-3 .container button{
+    background-color: rgb(0,123,255);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 50px 0 20px 400px;
+}
+#section-3 .container button:hover{
+    background-color: rgba(0, 0, 255, 0.887);
+    transition: all 0.5s;
+}
+#section-3 .container button div i{
+    margin-right: 20px;
+    padding: 8px 10px;
+    color: rgb(0,123,255);
+    border-radius: 50px;
+    background-color:white;
+}
+/* ==== section-4 ===== */
+#section-4 .container {
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+}
+#section-4 .container .card1 h5{
+    color: rgb(118,145,249);
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#section-4 .container .card1 h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(80,101,142);
+    text-align: center;
+    font-weight: 800;
+}
+#section-4 .container .card1 p{
+    margin-bottom: 20px;
+    color: rgb(80,101,142);
+    text-align: center;
+    font-size: 17px;
+}
+#section-4 .container .card2 img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 50px;
+    margin-left: 130px;
+    margin-bottom: 5px;
+    
+}
+#section-4 .container .card2{
+display: flex;
+justify-content: space-evenly;
+margin-left: 80px;
+}
+#section-4 .container .card2 h5{
+    color: #7691f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+#section-4 .container .card2 p{
+    width: 60%;
+    color: #3d4b69f5;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 50px;    
+}
+#section-4 .container .card2 p span{
+    color: black;
+}
+#section-4 .container .card3{
+    display: flex;
+    justify-content: space-around;
+}
+#section-4 .container .card3 .da i{
+    font-size: 100px;
+    width: 30%;
+    
+}
+#section-4 .container .card3 p{
+    padding: 5px;
+    color: rgb(61,75,105);
+    width: 500px;
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+#section-4 .container .card3 span{
+    color: #0033fd;
+}
+#section-4 .container button{
+    background-color: rgb(0,123,255);
+    color: white;
+    padding: 20px 15px;
+    border: 0;
+    border-radius: 100px;
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+/* ===== section-5 ====== */
+#section-5 .container{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 80px 0;
+    background-color:rgba(240, 255, 255, 0.248);
+}
+#section-5 .container .card1 h5{
+    color: rgb(118,145,249);
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#section-5 .container .card1 h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(61,75,105);
+}
+#section-5 .container .card1 p{
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#section-5 .container .card2 img{
+    width:100px;
+    height: 100px;
+    padding: 15px;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+#section-5 .container .card2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#section-5 .container .card2 div{
+    width: 20%;
+    margin-top: 50px;
+}
+#section-5 .container .card2 h5{
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#section-5 .container .card2 p{
+    color: #50658e;
+    font-size: 20px;
+}
+#section-5 .container .card3 button{
+    background-color: rgb(0,123,255);
+    color: white;
+    padding: 20px 15px;
+    border: 0;
+    border-radius: 100px;
+    font-size: 19px;
+    margin-top: 80px;
+    margin-left: 450px;
+}
+#section-5 .container .card3 button i{
+    margin-left: 40px;
+}
+#section-5 .container .card3 button:hover{
+    background-color: #0033fd;
+    transition: all 0.5s;
+}
+#section-5 .container .card4 a{
+    text-decoration: none;
+    color: rgb(0,123,255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-top: 80px; 
+    margin-left: 560px;
+}
+#section-5 .container .card4 a:hover{
+    color: #0033fd;
+    text-decoration:underline;
+    transition: all 0.5s;
+}
+
+/* ====== section-6 ====== */
+#section-6{
+    background-color:rgba(240, 255, 255, 0.494);
+}
+#section-6 .container{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+    border: 7px solid beige;
+    border-radius: 50px;
+    
+}
+#section-6 .container .row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#section-6 .container .card2 img{
+    width: 400px;
+    height: 500px;
+    padding: 10px 20px;
+}
+#section-6 .container .card1{
+    padding: 20px 0;
+    width: 50%;
+}
+#section-6 .container .card1 h2{
+    color: rgb(80,101,142);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+#section-6 .container .card1 ul li{
+    color: #50658e;
+    list-style-type: none;
+    font-size: 17px;
+    padding-bottom: 10px;
+
+}
+#section-6 .container .card1 ul li span{
+    color: black;
+}
+#section-6 .container .card1 ul li a{
+    color: #0033fd;
+    text-decoration: none;
+    padding-left: 5px;
+}
+#section-6 .container .card1 ul li a:hover{
+    text-decoration: underline;
+    transition: all 1s;
+}
+#section-6 .container .card1 ul li i{
+    color: rgba(0, 128, 0, 0.563);
+    padding-right: 5px;
+}
+/* ===== section-7 ====== */
+#section-7 .container {
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+    margin: 20px 0;
+}
+#section-7 .container .card1 h2{
+    color: #50658e;
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    font-weight: 900;
+}
+#section-7 .container .card1 a{
+    color: #007bff;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 500px;
+    font-weight: 800;
+}
+#section-7 .container .card1 a:hover{
+    transition: all 1s;
+    text-decoration: underline;
+    font-size: 22px;
+}
+#section-7 .card2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#section-7 .card2 div{
+    width: 16%;
+    padding-left: 10px;
+}
+#section-7 .card2 div img{
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 100px;
+    margin-left: 50px;
+    background-color: white;
+}
+#section-7 .card2 div h6{
+color: #50658e;
+width: 100%;
+font-size: 20px;
+margin-left: 80px;
+margin-top: 20px;
+}
+
+/* ====== section-9 =======  */
+#section-9 .container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    background-color: #2766bb;
+    border-radius: 25px;
+    padding: 80px 50px ;
+}
+#section-9 .container .card1 h5{
+    color: rgb(115,227,255);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#section-9 .container .card1 h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: white;
+}
+#section-9 .container .card1 p{
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: white;
+    width: 80%;
+    font-size: 20px;
+}
+#section-9 .container .card2{
+    background-color: #1b47a1;
+    border-radius: 20px;
+    padding: 40px 10px;
+    
+}
+#section-9 .container .card2 h6
+, p , li
+{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#section-9 .container .card2 ul{
+    list-style-type: none;
+}
+#section-9 .container .card2 li{
+    font-size: 18px;
+    text-decoration: none;
+}
+#section-9 .container .card2 li i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*  ========== section-10 */
+#section-10 .container{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 100px 0;
+}
+#section-10 .container h6{
+    font-size: 19px;
+    color: rgb(42,129,234);
+    margin-bottom: 10px;
+    text-align: center;
+}
+#section-10 .container h2{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+    color: #50658e;
+    text-align: center;
+    font-weight: bold;
+}
+#section-10 .container p{
+    color: #50628ee4;
+    text-align: center;
+    
+}
+#section-10 .container img{
+    width: 400px;
+    height: 400px;
+    margin-left: 400px;
+    margin-top: 20px;
+
+}
+/*  ======== section-11 ========*/
+#section-11 .container{
+    width: 90%;
+    margin: auto;
+}
+#section-11 .container .row{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+#section-11 .container .card1{
+width: 30%;
+}
+#section-11 .container .card1 ul li{
+    padding: 20px 10px;
+    border: 2px solid rgb(231,232,255);
+    border-radius: 8px;
+    margin: 10px 0px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: #007bff;
+    list-style-type: none;
+}
+#section-11 .container .card1 ul a{
+    text-decoration: none;
+    color: #007bff;
+}
+#section-11 .container .card1 ul a:hover{
+    transition: all 1s;
+    color: black;
+    font-size:22px ;
+}
+#section-11 .container .card1 ul .i{
+    text-align: right;
+}
+#section-11 .container .card2{
+    width: 60%;
+    margin-top: 130px;
+}
+#section-11 .container .card2 ul li{
+    padding: 20px;
+    font-size: 17px;
+    border: 1px solid rgb(231,232,255);
+}
+#section-11 .container .card2 ul{
+    list-style-type: none;
+}
+#section-11 .container .card2 ul .ba{
+    background-color:rgba(240, 255, 255, 0.38);
+    color: #465675;
+}
+#section-11 .container .card2 ul .ba a{
+    color: #465675;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#section-11 .container .card2 ul .ba a:hover{
+text-decoration: underline;
+font-size: 33px;
+transition: all 1s;
+color: black;
+}
+#section-11 .container .card2 ul .abb a{
+   color: white;
+   padding:100px 0;
+}
+
+
+
+/* ===== section-12 */
+#section-12 .container{
+    width: 90%;
+    margin: auto;
+   
+}
+
+#section-12 .row{
+    padding: 70px 0;
+    margin-top: 50px;
+    background-color: rgba(82, 123, 123, 0.033);
+}
+#section-12 .card1 h5{
+    font-size: 20px;
+    color: rgb(0,123,255);
+    margin-bottom: 15px;
+    text-align: center;
+}
+#section-12 .card1 h3{
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #50658e;
+}
+#section-12 .card2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;   
+}   
+#section-12 .card2 div{
+    width: 30%;
+    border: 2px solid beige;
+    border-radius: 50px;
+    background-color: white;
+}
+#section-12 .card2 div img{
+    width: 250px;
+    height: 270px;
+    margin-left: 50px;
+    border-radius: 20px;
+    margin-top:50px ;
+}
+#section-12 .card2 div h5{
+    color: #50658e;
+ font-size: 25px;
+ margin: 10px 1px; 
+ text-align: center;
+}
+
+#section-12 .card2 div p{
+    color: #3d4b69;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* ======= section-13 ====== */
+#section-13 .container{
+    width: 100%;
+    margin: auto;
+    background-image: url(../image/COVID19Background22.jpg);
+     padding: 100px 0;
+    
+
+}
+#section-13 .container .card1{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #3d4b69;
+   width: 70%;
+   margin: auto;
+   margin-bottom: 50px;
+}
+#section-13 .container .card1 div{
+    width: 30%;
+    margin-right: 100px;
+}
+#section-13 .container .card1 .logo{
+   width: 100%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 0px;
+& .num{
+    color: rgb(80,101,142);
+}
+& i{
+    color: red;
+}
+}
+#section-13 .container .card1 div .pp{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-right: 80px;
+}
+#section-13 .container .card1 div h6{
+    color: aliceblue;
+    font-size: 30px;
+    width: 100%;
+}
+#section-13 .container .card1 div p{
+    opacity: 0.4;
+    padding-bottom: 30px;
+}
+#section-13 .container .card1 i{
+    color:rebeccapurple;
+    font-size: 40px;
+    opacity: 0.3;
+}
+#section-13 .container a{
+   text-decoration: none;
+   color: rebeccapurple;
+}
+
+#section-13 .container a:hover{
+    transition: all 1s;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+
+
+
+/* ================== media ========== */
+/* @media(max-width:992px){
+    nav .row .bars{
+        display: block;
+    }
+    nav .row .nav-links ul{
+        display: none;
+    }
+    nav .row button{
+        display: none;
+    }
+    nav .row .logo{
+        width:30%;
+        font-size: 25px;
+    }
+
+} */
+
+@media(max-width:500px){
+    /* ========  header ======== */
+    nav .row .bars{
+        display: block;
+        margin-left: 50px;
+    }
+    nav .row .nav-links ul{
+        display: none;
+    }
+    nav .row button{
+        display: none;
+    }
+    nav .row .logo{
+        width:45%;
+        font-size: 30px;
+    }
+    nav .container{
+        width: 100%;
+        padding: 0 15px;
+    }
+    /* ======== section-1  ========  */
+    main #section-1 .row .card2 .header-row1 h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    font-weight: bold;
+    }
+    main #section-1 .row .card2 .header-row1 h4{
+    font-size: 25px;
+    top: 120px;
+    left: 170px;
+    margin-top: 10px;
+    }
+    main #section-1 .row .card2 .header-row1 h3{
+        font-size: 25px;
+        top: 160px;
+        left: 192px;
+        margin-top: 10px;
+    }
+    main #section-1 .row .card2 .header-row2 p{
+        font-size: 25px;
+        margin-top: 120px;
+       margin-bottom: 45px; 
+       padding-right: 50px;
+       width: 300px;
+    }
+    main #section-1 .row .card2 .header-row3 .co-a{
+        margin-top: 30px; 
+    }
+    main #section-1 .row .card2 .header-row4{
+        display: block;
+    }
+    main #section-1 .row .card2 .header-row4 h6{
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    main #section-1 .row .card2 .header-row4 h4{
+        font-size: 50px;
+        text-align: right;
+        padding-bottom: 10px;
+    }
+    main #section-1 .row .card2 .header-row5{
+        margin-top: 2px;
+        font-size: 20px; 
+        text-align: center;
+        color: black;
+    }
+    main #section-1 .row .card1 img{
+        width: 350px;
+        height: 350px;
+    }
+    #section-2 .container{
+        display: block;
+      
+    }
+    #section-2 .container .card1{
+        width: 100%;
+    }
+    #section-2 .container .card2{
+        width: 100%;
+    }
+    main #section-2 .card1 .row1 h3{
+        font-size: 30px;
+    }
+    main #section-2 .card1 .row3 p{
+        font-size: 30px;
+    }
+
+    #section-3 {
+       width: 100%;
+    }
+
+    #section-3 .container .card1 h5{
+        font-size: 30px; 
+       
+    }
+    #section-3 .container .card2{
+        display: block;
+        justify-content: space-around;
+    }
+    #section-3 .container .card2 div img{
+        width: 450px;
+    }
+    #section-3 .container .card2 div{
+        width: 100%;
+    }
+    #section-3 .container button{
+        font-size: 20px;
+        padding: 7px;
+        margin: 30px 0 20px 40px;
+    }
+
+    #section-4{
+        width: 100%;
+    }
+    #section-4 .container .card2{
+        width: 100%;
+        display: block;
+       
+    }
+    #section-4 .container .card2 p{
+        width: 80%;
+    }
+    #section-4 .container .card2 img{
+        margin-left: 280px;
+    }
+    #section-4 .container .card1 h5{
+        margin-left: 80px;
+        
+    }
+    #section-4 .container .card1 h3{
+        margin-left: 80px;
+        font-size: 25px;
+    }
+    #section-4 .container .card1 p{
+        width: 70%;
+        margin-left: 100px;
+        font-size: 20px;
+    }
+    #section-4 .container .card3{
+        display: block;
+    }
+    #section-4 .container button{
+        margin-left: 100px;
+    }
+    #section-5 .container{
+        width: 100%;
+    }
+    #section-5 .container .card2{
+        display: block;
+    }
+    #section-5 .container .card2 div{
+        width: 100%;
+    }
+    #section-5 .container .card2 img{
+        margin-right: 300px;
+        text-align: center;
+    }
+    #section-5 .container .card3 button{
+        margin-left: 80px;
+    }
+    #section-5 .container .card4 a{
+        margin-left: 200px;
+        margin-top: 100px; 
+    }
+
+    /* section-6 */
+    /* #section-6{
+        padding: 50px;
+    } */
+    #section-6 .container .row {
+        display: block;
+        justify-content:space-between;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    #section-6 .container{
+        padding: 20px;
+    }
+    #section-6 .container .card2 img{
+        width: 400px;
+        height: 300px;
+    }
+    #section-6 .container .card1{
+        width: 100%;
+        padding: 10px 10px;
+        margin-left: 20px;
+    }
+
+    #section-6 .container .card1 h2{
+        font-size: 20px;
+    }
+    #section-6 .container .card1 ul li{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /* section-7 */
+    #section-7{
+        width: 100%;
+        
+        padding: 0;
+        margin: 0;
+    }
+    #section-7 .card2 div{
+        width: 35%;
+        margin-right: 100px;
+       
+       
+    }
+    #section-7 .container .card1 h2{
+        font-size: 15px;
+    }
+    #section-7 .card2{
+        justify-content:space-evenly;
+        width: 100%;
+    }
+    #section-7 .card2 div img{
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+        padding: 0;
+    }
+    #section-7 .container .card1 a{
+        font-size: 20px;
+    }
+    #section-7 .container .card1 a{
+        margin-left: 150px;   
+    }
+    
+    #section-9 .container{
+        display: block;
+        margin-left: 50px;
+    }
+    #section-10 .card2{
+        display: block;
+    }
+    #section-10 .container img{
+        margin-left: 30px;
+    }
+    #section-13 .container .card1{
+        display: block;
+        width: 100%;
+    }
+    #section-13 .container .card1 div{
+        width: 100%;
+        text-align: center;
+    }
+    #section-13 .container p{
+        text-align: center;
+    }
+    #section-13 .container{
+        margin-left: 30px;
+    }
+
+
+    #section-12 .row{
+        background-color: white;
+    }
+    #section-12 .card2 div{
+        width: 100%;
+        margin-left: 40px;
+    }
+    #section-12 .card2 div img{
+       width: 350px;
+    }
+    #section-12 .card1 h5{
+         margin-left: 20px;
+    }
+    #section-11 .container .row{
+        display: block;
+    }
+    #section-11 .container .card1{
+        width:100%;
+    }
+    #section-11 .container .card2{
+        width: 100%;
+    }
+
+ 
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
